@@ -18,6 +18,8 @@
 PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
+#vendor/htc/m7/proprietary/etc/firmware/BCM4335B0_002.001.006.0042.0044.hdc:system/etc/firmware/BCM4335B0_002.001.006.0042.0044.hcd 
+
 PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/bin/akmd:system/bin/akmd \
 	vendor/htc/m7/proprietary/bin/bma150_usr:system/bin/bma150_usr \
@@ -82,7 +84,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	vendor/htc/m7/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	vendor/htc/m7/proprietary/etc/firmware/BCM4335A0_001.001.038.0015.0020.hcd:system/etc/firmware/BCM4335A0_001.001.038.0015.0020.hcd \
-	vendor/htc/m7/proprietary/etc/firmware/BCM4335B0_002.001.006.0042.0044.hdc:system/etc/firmware/BCM4335B0_002.001.006.0042.0044.hcd \
 	vendor/htc/m7/proprietary/etc/firmware/fw_bcm4335.bin:system/etc/firmware/fw_bcm4335.bin \
 	vendor/htc/m7/proprietary/etc/firmware/fw_bcm4335_apsta.bin:system/etc/firmware/fw_bcm4335_apsta.bin \
 	vendor/htc/m7/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:system/etc/firmware/fw_bcm4335_apsta_b0.bin \
@@ -109,7 +110,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
 	vendor/htc/m7/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
 	vendor/htc/m7/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	vendor/htc/m7/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \\
+	vendor/htc/m7/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/htc/m7/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/htc/m7/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
 	vendor/htc/m7/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
