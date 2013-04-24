@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/htc/m7/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/htc/m7/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
+	vendor/htc/m7/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
 	vendor/htc/m7/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
 	vendor/htc/m7/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
 	vendor/htc/m7/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
