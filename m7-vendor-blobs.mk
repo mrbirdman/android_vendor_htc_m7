@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
 	vendor/htc/m7/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
 	vendor/htc/m7/proprietary/etc/firmware/hcheck.b03:system/etc/firmware/hcheck.b03 \
+	vendor/htc/m7/proprietary/etc/firmware/hcheck.mdt:system/etc/firmware/hcheck.mdt \
 	vendor/htc/m7/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
 	vendor/htc/m7/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
 	vendor/htc/m7/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
@@ -113,8 +114,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
 	vendor/htc/m7/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
 	vendor/htc/m7/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-	vendor/htc/m7/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	vendor/htc/m7/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/htc/m7/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/htc/m7/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
 	vendor/htc/m7/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -134,6 +133,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
 	vendor/htc/m7/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/htc/m7/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+	vendor/htc/m7/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
 	vendor/htc/m7/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/htc/m7/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/htc/m7/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
