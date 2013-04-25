@@ -22,6 +22,9 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/bin/akmd:system/bin/akmd \
 	vendor/htc/m7/proprietary/bin/bma150_usr:system/bin/bma150_usr \
 	vendor/htc/m7/proprietary/bin/rild:system/bin/rild \
+	vendor/htc/m7/proprietary/bin/ks:system/bin/ks \
+	vendor/htc/m7/proprietary/bin/efsks:system/bin/efsks \
+	vendor/htc/m7/proprietary/bin/qcks:system/bin/qcks \
 	vendor/htc/m7/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
 	vendor/htc/m7/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
 	vendor/htc/m7/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
