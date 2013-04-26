@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
+        vendor/htc/m7/proprietary/bin/adaptive:system/bin/adaptive \
 	vendor/htc/m7/proprietary/bin/akmd:system/bin/akmd \
         vendor/htc/m7/proprietary/bin/bluetoothd:system/bin/bluetoothd \
         vendor/htc/m7/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
@@ -145,4 +146,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
 	vendor/htc/m7/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/htc/m7/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-	vendor/htc/m7/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
+	vendor/htc/m7/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+        vendor/htc/m7/proprietary/sbin/mfgsrv:root:/sbin/mfgsrv \
+        vendor/htc/m7/proprietary/sbin/sfc:root:/sbin/sfc \
+        vendor/htc/m7/proprietary/sbin/tpd:root:/sbin/tpd
