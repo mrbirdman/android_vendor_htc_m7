@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/bin/akmd:system/bin/akmd \
+        vendor/htc/m7/proprietary/bin/bluetoothd:system/bin/bluetoothd \
+        vendor/htc/m7/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
 	vendor/htc/m7/proprietary/bin/bma150_usr:system/bin/bma150_usr \
 	vendor/htc/m7/proprietary/bin/rild:system/bin/rild \
 	vendor/htc/m7/proprietary/bin/ks:system/bin/ks \
