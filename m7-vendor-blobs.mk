@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/m7/proprietary/lib/hw/nfc.m7.so:system/lib/hw/nfc.m7.so \
 	vendor/htc/m7/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/htc/m7/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
-	vendor/htc/m7/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/htc/m7/proprietary/lib/hw/sensors.m7.so:system/lib/hw/sensors.m7.so \
         vendor/htc/m7/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
 	vendor/htc/m7/proprietary/lib/libimu.so:system/lib/libimu.so \
