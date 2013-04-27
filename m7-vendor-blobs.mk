@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
     $(LOCAL_PATH)/proprietary/lib/hw/nfc.m7.so:system/lib/hw/nfc.m7.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    $(LOCAL_PATH)/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     $(LOCAL_PATH)/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.m7.so:system/lib/hw/sensors.m7.so \
     $(LOCAL_PATH)/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
