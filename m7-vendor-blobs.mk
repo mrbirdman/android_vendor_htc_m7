@@ -147,6 +147,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     $(LOCAL_PATH)/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(LOCAL_PATH)/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    $(LOCAL_PATH)/proprietary/sbin/mfgsrv:root:/sbin/mfgsrv \
-    $(LOCAL_PATH)/proprietary/sbin/sfc:root:/sbin/sfc \
-    $(LOCAL_PATH)/proprietary/sbin/tpd:root:/sbin/tpd
+    $(LOCAL_PATH)/proprietary/sbin/mfgsrv:root/sbin/mfgsrv \
+    $(LOCAL_PATH)/proprietary/sbin/sfc:root/sbin/sfc \
+    $(LOCAL_PATH)/proprietary/sbin/tpd:root/sbin/tpd
