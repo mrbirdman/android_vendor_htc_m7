@@ -148,4 +148,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     $(LOCAL_PATH)/proprietary/sbin/mfgsrv:root/sbin/mfgsrv \
     $(LOCAL_PATH)/proprietary/sbin/sfc:root/sbin/sfc \
-    $(LOCAL_PATH)/proprietary/sbin/tpd:root/sbin/tpd
+    $(LOCAL_PATH)/proprietary/sbin/tpd:root/sbin/tpd \
+    $(LOCAL_PATH)/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+    $(LOCAL_PATH)/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    $(LOCAL_PATH)/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    $(LOCAL_PATH)/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    $(LOCAL_PATH)/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+    $(LOCAL_PATH)/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
+    $(LOCAL_PATH)/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so
